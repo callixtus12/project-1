@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietam Pro', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    color: #FFFFFF;
+    padding: 35px 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    color: black;
+    font-size: 15px;
+}
+
+button{
+    all: unset;
+    background-color: #F25F3A;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 100px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+main div{
+    width: 45%;
+}
+
+main h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #242D52;
+}
+
+main p{
+    color: gray;
+    padding: 30px 0;
+}
+
+section{
+    display: flex;
+    padding: 30px 100px;
+    gap: 100px;
+}
+#product h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #242D52;
+}
+
+#product p{
+    padding: 30px 0;
+    color: gray;
+}
+
+section h4{
+    all: unset;
+    background-color: #F25F3A;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 100px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #242D52;
+    font-size: 15px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #242D52;
+    font-size: 15px;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #242D52;
+    font-size: 15px;
+}
+
+#list{
+    padding: 30px 100px;
+
+}
+
+#list p{
+    padding: 30px 0;
+    margin-left: 18%;
+}
+
+article h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+.testimony{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.testimony div{
+    text-align: center;
+    background-color: #FFEFEB;
+    padding: 50px 0;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.testimony img{
+    width: 85px;
+}
+
+.testimony h2{
+    font-size: 15px;
+}
+
+.testimony p{
+    font-size: 85%;
+    color: gray;
+}
+
+
+
+    
+    
+
