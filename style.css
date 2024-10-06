@@ -37,8 +37,9 @@ button{
     all: unset;
     background-color: #F25F3A;
     color: white;
-    padding: 10px 22px;
+    padding: 15px 22px;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 main{
@@ -142,6 +143,7 @@ article h1{
 .buttons{
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .testimony img{
@@ -156,6 +158,71 @@ article h1{
     font-size: 85%;
     color: gray;
 }
+
+#down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: #F25F3A;
+}
+
+#down h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#down button{
+    background-color: #FFFFFF;
+    color: #F25F3A;
+    margin-left: 75%;
+}
+
+#down div{
+    width: 45%;
+    padding: 3dvh 0;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: #1D1E25;
+    
+}
+
+#footer a{
+    color: white;
+}
+
+footer .center{
+    display: flex;
+    gap: 60px;
+}
+
+footer .center li{
+    margin: 10px;
+}
+
+#footer p{
+    color: white;
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+footer .input{
+    padding: 15px 22px;
+    border-radius: 100px;
+
+}
+
+
+
+
+
 
 
 
