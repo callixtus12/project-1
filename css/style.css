@@ -37,7 +37,7 @@ nav a{
     font-size: 15px;
 }
 
-button{
+nav button{
     all: unset;
     background-color: #F25F3A;
     color: white;
@@ -59,22 +59,40 @@ main div{
 
 main h1{
     font-size: 50px;
-    font-weight: 8  00;
-    margin-right: 18%;
+    font-weight: 800;
     color: #242D52;
 }
 
 main p{
     color: gray;
-    padding: 30px 0;
     margin: 16px 0 48px;
 }
+
+main button{
+    all: unset;
+    background-color: #F25F3A;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
 
 section{
     display: flex;
     padding: 30px 100px;
     gap: 100px;
 }
+
+ .buttons button{
+    all: unset;
+    background-color: #F25F3A;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
 #product h1{
     font-weight: 700;
     font-size: 40px;
@@ -181,6 +199,10 @@ article h1{
 }
 
 #down button{
+    all: unset;
+    padding: 15px 22px;
+    border-radius: 100px;
+    cursor: pointer;
     background-color: #FFFFFF;
     color: #F25F3A;
     margin-left: 75%;
@@ -219,6 +241,15 @@ footer .center li{
     margin-top: 70px;
 }
 
+.input button{
+    all: unset;
+    background-color: #F25F3A;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
 input{
     display: block;
     padding: 10px;
@@ -242,6 +273,240 @@ input{
     margin-top: 30px;
 }
 
+@media screen and (max-width:992px) {
+    nav, main, section, footer{
+        padding: 50px 20px;
+    }
+
+    main img{
+        width: 120%;
+    }
+
+    nav ul{
+        gap: 20px;
+    }
+
+    nav a{
+        font-size: 14px;
+    }
+
+    main h1{
+        font-size: 40px;
+    }
+
+    main div{
+        gap: 20px;
+    }
+
+    #product h1{
+        font-size: 35px;
+    }
+
+    article h1{
+        font-size: 35px;
+    }
+
+    #down button{
+        margin-left: 130px;
+    }
+
+    #down h1{
+        font-size: 35px;
+    }
+
+    .testimony{
+        grid-template-columns: repeat(2, 2fr);
+        padding: 30px 30px;
+    }
+
+    #footer a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #footer{
+        flex-direction: column;
+    }
+
+    nav, main, footer, section{
+        padding: 20px 20px;
+    }
+
+    nav a{
+        font-size: 11px;
+    }
+
+    nav ul{
+        gap: 12px;
+    }
+
+    button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    main h1{
+        font-size: 30px;
+    }
+
+    main img{
+        width: 100%;
+    }
+
+    #list{
+        padding: 10px;
+    
+    }
+
+    section{
+        gap: 40px;
+    }
+
+    #down{
+        padding: 1rem;
+    }
+
+    #down div{
+        width: 60%;
+        padding: 3dvh 0;
+    }
+
+    #down h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:576px) {
+    nav button{
+        display: none;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    main{
+        flex-direction: column-reverse;
+    }
+
+    main div{
+        width: 80%;
+    }
+
+    main h1{
+        text-align: center;
+    }
+
+    main p{
+        text-align: center;
+    }
+
+    section div{
+        width: 100%;
+    }
+
+    section{
+        text-align: center;
+        display: grid;
+    }
+
+    .first, .second, .third{
+        gap: 15px;
+    }
+
+    #product h1{
+        font-size: 20px;
+    }
+
+    .first h4{
+        font-size: 12px;
+    }
+
+    .first h2{
+        font-size: 18px;
+    }
+
+    .second h4{
+        font-size: 12px;
+    }
+
+    .second h2{
+        font-size: 18px;
+    }
+
+    .third h4{
+        font-size: 12px;
+    }
+
+    .third h2{
+        font-size: 18px;
+    }
+
+    html, body{
+        scroll-behavior: smooth;
+    }
+
+    article h1{
+        font-size: 30px;
+    }
+
+    .testimony{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #down h1{
+        font-size: 25px;
+    }
+
+    #down div{
+        width: 55%;
+    }
+
+    #list p{
+        padding: 30px 0;
+        margin-left: 0;
+    }
+
+    section{
+        text-align: left;
+    }
+
+    .manage{
+        text-align: center;
+    }
+
+    main button{
+        margin-left: 6rem;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    #down button{
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .buttons button{
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .input button{
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    #footer a{
+        font-size: 13px;
+    }
+
+    
+
+
+
+} 
 
 
 
