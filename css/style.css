@@ -478,7 +478,7 @@ input{
     }
 
     main button{
-        margin-left: 6rem;
+        margin-left: 5rem;
         padding: 10px 20px;
         font-size: 13px;
     }
@@ -500,6 +500,18 @@ input{
 
     #footer a{
         font-size: 13px;
+    }
+
+    #down {
+        flex-direction: column;
+    }
+
+    #down button{
+        text-align: center;
+    }
+
+    #down div{
+        width: 100%;
     }
 
     
